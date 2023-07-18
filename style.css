@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+:root{
+  --color-black: #272727;
+  --color-black-dark: #101010;
+  --color-lightgray: #808080;
+  --color-orange: #ff5400;
+}
+
+
+body {
+  background-color: var(--color-black);
+  text-align: center;
+}
+
+header {
+  background-color: var(--color-black-dark);
+  color: white ;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.active {background-color: #ff5400;}
+
+ul.categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-card {
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--color-orange);
+}
+
+.game-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 1000;
+  
+}
+
+
+.button-index {
+  padding: 10px 40px;
+  background-color: var(--color-lightgray);
+  border: 1px black solid;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.button-index:hover {
+  background-color: #ff0000;
+  padding: 10px 60px;
+}
+
+.cart-button {
+  background-color: var(--color-lightgray);
+  padding: 0.5rem;
+  border-radius: 1rem;
+
+}
+
+.cart-product {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem 3%;
+  background-color: #ff5400;
+  border-radius: 1rem;
+}
+
+.cart-img {
+  width: 11%;
+}
+
+.cart-product h2,h4 {
+  color: white;
+  
+}
+
+.trash-can {
+  color: #ff0000;
+  background-color: #101010;
+  padding: 1rem;
+}
+
+.trash-can:hover {
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+.disable {
+  display: none;
+}
+
+.cart-end{
+ background-color: #ff5400;
+ padding: 3rem;
+ margin: 2rem;
+ border-radius: 1rem;
+ display: flex;
+ justify-content: space-between;
+}
+
+.buy {
+  display: flex
+}
+
+
+.cart-end-button {
+  padding: 2rem;
+  background-color: var(--color-lightgray);
+  border-radius: 1rem;
+}
+
+.cart-end-button:hover {
+  background-color: #ff0000;
+  cursor: pointer;
+}
+
+.cart-end-total {
+  margin: 2rem;
+}
+
+h1 {
+  color: white;
+}
+
+input {
+  width: 40%;
+  padding: 0.5rem;
+  margin: 2rem;
+  border: #ff5400 10px solid;
+}
