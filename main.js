@@ -81,7 +81,7 @@ const products = [
 
   {
     id: 9,
-    img: "Imagenes/Estrategia/AOEIIMg.jpg",
+    img: "Imagenes/Estrategia/AOEIImg.jpg",
     name: "Age Of Empires II DE",
     categoria: { id: "strategy", nombre: "Estrategia" },
     price: 7.82,
