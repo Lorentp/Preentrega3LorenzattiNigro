@@ -89,7 +89,7 @@ const products = [
   {
     id: 11,
     img: "Imagenes/Estrategia/AOEIIIMg.jpg",
-    name: "Aghe Of Empires III DE",
+    name: "Age Of Empires III DE",
     categoria: { id: "strategy", nombre: "Estrategia" },
     price: 5.15,
   },
