@@ -38,7 +38,7 @@ fetch("./json/products.json")
     addProducts(data);
   });
 
-/*aplicamos metodo fetch a una api para recuperar el precio del dolar actualizado*/
+/*Recuperamos el precio del Dolar para mostrarlo en la pagina a traves de una api*/
 
 let usdUpdate;
 
